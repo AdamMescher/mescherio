@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next start",
     "storybook": "start-storybook -p 6006 -c .storybook",
+    "build-storybook": "build-storybook -c .storybook -o .out",
     "lint": "./node_modules/eslint/bin/eslint.js . --ext .js,.jsx,.ts,.tsx",
     "test": "./node_modules/jest/bin/jest.js"
   },
