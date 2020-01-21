@@ -1,7 +1,10 @@
 import * as React from 'react';
+import StyledButton from './styled';
 
 type Props = {
   text: string;
 };
 
-export default ({ text }: Props) => <button>{text}</button>;
+const Button = ({ text }: Props) => <StyledButton>{text}</StyledButton>;
+
+export default Button;
