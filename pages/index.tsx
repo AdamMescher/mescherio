@@ -1,8 +1,11 @@
 import * as React from 'react';
-import Button from '../src/components/Button/index';
+import { NextPage } from 'next';
+import Layout from '../src/components/Layout/index';
 
-const Index = () => (
-  <Button text="Hello" />
+const Index: NextPage = () => (
+  <Layout>
+    <h1>Hello</h1>
+  </Layout>
 );
 
 export default Index;
