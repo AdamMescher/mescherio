@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "storybook": "start-storybook -p 6006 -c .storybook",
+    "storybook": "start-storybook -p 6006 -c -s .storybook",
     "build-storybook": "build-storybook -c .storybook -o .out",
     "deploy-storybook": "storybook-to-ghpages",
     "lint": "./node_modules/eslint/bin/eslint.js . --ext .js,.jsx,.ts,.tsx",
@@ -22,6 +22,7 @@
     "@types/node": "^13.1.8",
     "@types/react": "^16.9.18",
     "@types/styled-components": "^4.4.2",
+    "@types/uuid": "^3.4.6",
     "babel-loader": "^8.0.6",
     "babel-preset-react-app": "^9.1.0",
     "next": "^9.2.0",
@@ -29,7 +30,8 @@
     "react-dom": "^16.12.0",
     "styled-components": "^5.0.0",
     "typescript": "^3.7.5",
-    "typescript-plugin-styled-components": "^1.4.4"
+    "typescript-plugin-styled-components": "^1.4.4",
+    "uuid": "^3.4.0"
   },
   "devDependencies": {
     "@storybook/storybook-deployer": "^2.8.1",

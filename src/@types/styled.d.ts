@@ -61,7 +61,7 @@ declare module 'styled-components' {
         },
       },
       supporting: {
-        teal: {
+        green: {
           100: string,
           200: string,
           300: string,
@@ -71,7 +71,6 @@ declare module 'styled-components' {
           700: string,
           800: string,
           900: string,
-          1000: string,
         },
         red: {
           100: string,
@@ -83,9 +82,8 @@ declare module 'styled-components' {
           700: string,
           800: string,
           900: string,
-          1000: string,
         },
-        yellow: {
+        gold: {
           100: string,
           200: string,
           300: string,
@@ -95,11 +93,24 @@ declare module 'styled-components' {
           700: string,
           800: string,
           900: string,
-          1000: string,
         },
+        lavender: {
+          100: string,
+          200: string,
+          300: string,
+          400: string,
+          500: string,
+          600: string,
+          700: string,
+          800: string,
+          900: string,
+        }
       },
     },
     utilities: {
+      flex: {
+        center: string,
+      },
       boxShadow: {
         none: string,
         tiny: string,

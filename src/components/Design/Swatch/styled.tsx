@@ -1,5 +1,8 @@
 import styled from 'styled-components';
 
-const StyledSwatch = styled.section``;
+const StyledSwatch = styled.article`
+    height: 200px;
+    width: 200px;
+`;
 
 export default StyledSwatch;
