@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const StyledLogo = styled.div`
-    grid-area: 1 / 1 / 3 / 4;
+    grid-area: 1 / 1 / 5 / 6;
     display: flex;
     align-items: center;
 
@@ -9,20 +9,19 @@ const StyledLogo = styled.div`
     h1,
     h2 {
         color: white;
-        margin-left: ${({ theme }) => theme.spacing[5]}px;
+        margin-left: ${({ theme }) => theme.spacing[8]}px;
     }
 
     h1 {
         font-weight: ${({ theme }) => theme.typography.fontWeight[700]};
-        font-size: ${({ theme }) => theme.typography.fontSize[10]}px;
+        font-size: ${({ theme }) => theme.typography.fontSize[9]}px;
         white-space: nowrap;
     }
 
     h2 {
         font-weight: ${({ theme }) => theme.typography.fontWeight[300]};
-        font-size: ${({ theme }) => theme.typography.fontSize[8]}px;
+        font-size: ${({ theme }) => theme.typography.fontSize[7]}px;
         white-space: nowrap;
-        margin-top: -8px;
     }
 
     .laptop {
