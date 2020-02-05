@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const StyledLogo = styled.div`
+const StyledWordmark = styled.div`
     grid-area: 1 / 1 / 5 / 6;
     display: flex;
     align-items: center;
@@ -31,4 +31,4 @@ const StyledLogo = styled.div`
     }
 `;
 
-export default StyledLogo;
+export default StyledWordmark;
