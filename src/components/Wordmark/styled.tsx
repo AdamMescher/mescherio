@@ -28,7 +28,6 @@ const StyledWordmark = styled.div`
             margin-left: 16px;
             display: flex;
             justift-content: center;
-            background-color: brown;
         }
         h1 {
             font-size: ${({ theme }) => theme.typography.fontSize[7]}px;
