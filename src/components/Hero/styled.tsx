@@ -10,19 +10,19 @@ const StyledHero = styled.section`
     background-color: #57b0fb;
     background: url(/images/sky-lines.svg) no-repeat;
     background-size: cover;
-
-    .bg-img-blur {
-        width: 100%;
-        height: 100%;
-        filter: blur(1.5rem);
-    }
-
     .mountains {
         width: 100%;
         height: 100%;
         grid-area: 3 / 1 / 6 / 6;
         object-fit: cover;
         overflow: visible;
+    }
+
+    @media(max-width: 550px) {
+        .mountains {
+            grid-area: 4/1/6/6;
+            test-stuff: here;
+        }
     }
 `;
 
