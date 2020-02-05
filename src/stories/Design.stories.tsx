@@ -17,9 +17,11 @@ storiesOf('Design System', module)
       <h1>Supporting</h1>
       <h2>Red</h2>
       <Color colors={theme.colors.supporting.red} />
-      <h2>Teal</h2>
-      <Color colors={theme.colors.supporting.teal} />
-      <h2>Yellow</h2>
-      <Color colors={theme.colors.supporting.yellow} />
+      <h2>Green</h2>
+      <Color colors={theme.colors.supporting.green} />
+      <h2>Gold</h2>
+      <Color colors={theme.colors.supporting.gold} />
+      <h2>Lavendar</h2>
+      <Color colors={theme.colors.supporting.lavender} />
     </section>
   ));
