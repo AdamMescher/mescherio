@@ -1,73 +1,59 @@
 import styled from 'styled-components';
 
 const StyledAbout = styled.section`
-    width: 100%;
-    // background-color: ${({ theme }) => theme.colors.neutral.ash[200]};
+    padding: 32px 0 32px 0;
     background: url(images/funky-lines.png);
     display: flex;
-    align-items: center;
-    h2 {
-        padding-top: 36px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        font-size: ${({ theme }) => theme.typography.fontSize[7]}px;
-    }
-    .text-and-img-container {
-        margin-top: 32px;
-        height: 80%;
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
     .img-container {
-        align-items: center;
-        margin-left: 10%;
-        width: 20%;
-        height: 100%;
-    }
-    .text-container {
         width: 40%;
-        height: 100%;
-        margin-right: 15%;
-        margin-left: 3%;
-        display: flex;
-        align-items: center;
+        margin-left: 32px;
+        width: calc(40% - 32px);
     }
     img {
-        height: 100%;
+        width: 100%;
+        max-height: 375px;
+        min-width: 150px;
+    }
+    .text-container {
+        margin-right: 32px;
+        width: calc(60% - 32px);
+        padding: 0 5rem 0 5rem;
+        display: flex;
+        align-items: center;
     }
     p {
-        font-size: ${({ theme }) => theme.typography.fontSize[6]}px;
+        display: flex;
+        font-size: 36px;
+        line-height: 1.25;
     }
-    @media(max-width: 1024px) {
-        .text-and-img-container {
-            flex-direction: column;
-            align-items: center;
+    @media(max-width: 1280px) {
+        p {
+          font-size: 30px;
         }
+      }
+    @media(max-width: 985px) {
+        p {
+          font-size: 24px;
+        }
+      }
+    @media(max-width: 835px) {
+        flex-direction: column;
+        align-items: center;
         .img-container {
-            width: 100%;
-            margin-left: 0;
-        }
-        img {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100px;
-            width: 100%;
+          margin: 0;
         }
         .text-container {
-            margin: 0;
-            width: 100%;
-            margin-left: 20%;
-            margin-right: 20%;
-            padding-bottom: 24px;
+          width: 100%;
+          padding: 1rem 3rem 0 3rem;
+          margin: 0;
         }
         p {
-            margin-top: 24px;
-            margin-left: 20%;
-            margin-right: 20%;
-            font-size: ${({ theme }) => theme.typography.fontSize[4]}px;
+          font-size: 20px;
+        }
+      }
+    @media(max-width: 650px) {
+        p {
+            font-size: 20px;
         }
     }
 `;

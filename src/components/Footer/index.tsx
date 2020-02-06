@@ -1,4 +1,4 @@
-import * as React from 'styled-components';
+import * as React from 'react';
 import StyledFooter from './styled';
 
 const Footer = () => (
