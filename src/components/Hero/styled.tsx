@@ -8,7 +8,7 @@ const StyledHero = styled.section`
     width: 100%;
     overflow: hidden;
     background-color: #57b0fb;
-    background: url(/images/sky-lines.svg) no-repeat;
+    background: url(/images/sky-lines.svg) no-repeat; // background by SVGBackgrounds.com
     background-size: cover;
     .mountains {
         width: 100%;

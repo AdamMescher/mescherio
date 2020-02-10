@@ -4,6 +4,7 @@ const StyledAbout = styled.section`
     padding: 32px 0 32px 0;
     background: url(images/funky-lines.png);
     display: flex;
+    color: ${({ theme }) => theme.colors.neutral.charcoal[800]};
     .img-container {
         width: 40%;
         margin-left: 32px;
