@@ -1,6 +1,5 @@
 import * as React from 'react';
 import StyledFooter from './styled';
-import SocialLinkList from '../SocialLinkList';
 
 const Footer = () => (
   <footer>
@@ -8,7 +7,8 @@ const Footer = () => (
       <div className="img-and-text-container">
         <img className="headshot" src="/images/professional-headshot.jpg" alt="" />
         <p>
-            Raised in Raleigh, North Carolina and stayed for school at North Carolina State University. Developing in Denver, CO since 2017. Catch me on powder days at Copper Mountain. During the warmer months, you might find me playing spikeball, volleyball, or ultimate frisbee in Wash Park.
+          {/* eslint-disable-next-line max-len */}
+          Raised in Raleigh, NC and stayed for school at North Carolina State University. Developing in Denver, CO since 2017. Catch me on powder days at Copper Mountain. During the warmer months, you might find me playing spikeball, volleyball, or ultimate frisbee in Wash Park.
         </p>
       </div>
       <ul>
