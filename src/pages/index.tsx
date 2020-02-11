@@ -3,6 +3,7 @@ import { NextPage } from 'next';
 import Layout from '../components/Layout';
 import Hero from '../components/Hero';
 import About from '../components/About';
+import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
 const Index: NextPage = () => (
@@ -10,6 +11,7 @@ const Index: NextPage = () => (
     <main>
       <Hero />
       <About />
+      <Contact email="admescher@gmail.com" />
       <Footer />
     </main>
   </Layout>

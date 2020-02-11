@@ -1,11 +1,20 @@
 import * as React from 'react';
 import StyledContact from './styled';
 
-const Contact = () => (
+type ContactProps = {
+  email: string,
+};
+
+const Contact = ({
+  email,
+}: ContactProps) => (
   <StyledContact>
     <h2>Like what you see?</h2>
-    <p>Email me at adam@mescher.io</p>
-    <p>or you can reach me by filling out the form</p>
+    <p>I'd love to hear from you!</p>
+    <p>
+      Email me at
+      <a href={`mailto:${email}`}>{email}</a>
+    </p>
   </StyledContact>
 );
 

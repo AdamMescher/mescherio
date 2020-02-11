@@ -7,24 +7,9 @@ const Footer = () => (
     <StyledFooter>
       <div className="img-and-text-container">
         <img className="headshot" src="/images/professional-headshot.jpg" alt="" />
-        <div className="text-container">
-          <div className="about-bullet-container">
-            <img src="images/ncsu-logo.svg" alt="" />
-            <p>Raised in Raleigh, NC and stayed to finish undergrad at North Carolina State University</p>
-          </div>
-          <div className="about-bullet-container">
-            <img src="/images/flag-denver.svg" alt="" />
-            <p>Developing in Denver, CO since 2017</p>
-          </div>
-          <div className="about-bullet-container">
-            <img src="/images/goggles.svg" alt="" />
-            <p>Catch me on powder days at Copper Mountain</p>
-          </div>
-          <div className="about-bullet-container">
-            <img src="/images/roundball-net.svg" alt="" />
-            <p>During the warmer months, you might find me playing spikeball, volleyball, or ultimate frisbee in Wash Park.</p>
-          </div>
-        </div>
+        <p>
+            Raised in Raleigh, North Carolina and stayed for school at North Carolina State University. Developing in Denver, CO since 2017. Catch me on powder days at Copper Mountain. During the warmer months, you might find me playing spikeball, volleyball, or ultimate frisbee in Wash Park.
+        </p>
       </div>
       <ul>
         <li>
