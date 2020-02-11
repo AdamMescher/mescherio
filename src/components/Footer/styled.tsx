@@ -33,9 +33,12 @@ const StyledFooter = styled.section`
         .ftr-social-icon {
             fill: white;
             height: 48px;
+            transition-duration: 0.2s;
         }
         .ftr-social-icon:hover {
             fill: #A5B2BD;
+            transform: scale(1.4);
+            transition-duration: 0.2s;
         }
         a {
             font-size: 0px;

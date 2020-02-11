@@ -8,9 +8,12 @@ const StyledSocialLinkList = styled.ul`
         margin-left: 18px;
         fill: white;
         height: 48px;
+        transition-duration: 0.2s;
     }
     .social-icon:hover {
         fill: #A5B2BD;
+        transform: scale(1.4);
+        transition-duration: 0.2s;
     }
     a {
         font-size: 0px;
