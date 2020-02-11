@@ -10,11 +10,16 @@ const Contact = ({
 }: ContactProps) => (
   <StyledContact>
     <h2>Like what you see?</h2>
-    <p>I'd love to hear from you!</p>
-    <p>
-      Email me at
-      <a href={`mailto:${email}`}>{email}</a>
-    </p>
+    <div className="txt-and-img-cont">
+      <div className="txt-cont">
+        <p>I'd love to hear from you!</p>
+        <p className="email">
+          {'Email me at '}
+          <a href={`mailto:${email}`}>{` ${email}`}</a>
+        </p>
+      </div>
+      <img src="/images/contact.svg" alt="" />
+    </div>
   </StyledContact>
 );
 
