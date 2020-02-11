@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const StyledFooter = styled.section`
     padding-top: 32px;
     padding-bottom: 24px;
-    height: 35vh;
+    height: 100%;
     background: ${({ theme }) => theme.colors.primary[900]};
     .img-and-text-container {
         margin-left: 10%;
@@ -11,6 +11,7 @@ const StyledFooter = styled.section`
         display: flex;
         align-items: center;
         justify-content: center;
+        background: ${({ theme }) => theme.colors.primary[900]};
     }
     .headshot {
         height: 225px;
