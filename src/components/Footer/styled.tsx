@@ -4,14 +4,15 @@ const StyledFooter = styled.section`
     padding-top: 32px;
     padding-bottom: 24px;
     height: 100%;
-    background: ${({ theme }) => theme.colors.primary[900]};
+    background: rgb(0,38,81);
+    background: linear-gradient(30deg, rgba(0,38,81,1) 0%, rgba(3,64,119,1) 65%, rgba(0,92,164,1) 100%);
     .img-and-text-container {
         margin-left: 10%;
         margin-right: 10%;
         display: flex;
         align-items: center;
         justify-content: center;
-        background: ${({ theme }) => theme.colors.primary[900]};
+        background: background: ${({ theme }) => theme.colors.primary[900]};
     }
     .headshot {
         height: 225px;
@@ -25,7 +26,6 @@ const StyledFooter = styled.section`
     }
     ul {
         padding-bottom: 18px;
-        background: ${({ theme }) => theme.colors.primary[900]};
         width: 100%;
         display: flex;
         list-style: none;

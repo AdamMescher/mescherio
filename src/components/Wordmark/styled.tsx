@@ -12,6 +12,7 @@ const StyledWordmark = styled.div`
     }
 
     h1 {
+        margin-bottom: 0;
         font-weight: ${({ theme }) => theme.typography.fontWeight[700]};
         font-size: ${({ theme }) => theme.typography.fontSize[9]}px;
         white-space: nowrap;
