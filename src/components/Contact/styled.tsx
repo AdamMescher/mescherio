@@ -49,7 +49,12 @@ const StyledContact = styled.section`
         }
         .email {
             margin: 12px 0 24px 0;
+            font-size: ${({ theme }) => theme.typography.fontSize[4]}px;
         }
+        img {
+            height: 200px;
+        }
+        padding: 24px;
     }
 `;
 

@@ -43,11 +43,12 @@ const StyledFooter = styled.section`
         li {
             margin-left: 28px;
         }
-        ul:first-child {
+        .first {
             margin-left: 0;
         }
     }
     @media(max-width: 1280px) {
+        height: 100%;
         p {
             font-size: ${({ theme }) => theme.typography.fontSize[4]}px;
         }
@@ -56,6 +57,7 @@ const StyledFooter = styled.section`
         }
     }
     @media(max-width: 835px) {
+        height: 100%;
         p {
             font-size: ${({ theme }) => theme.typography.fontSize[3]}px;
         }
@@ -71,6 +73,9 @@ const StyledFooter = styled.section`
             width: 80%;
             margin-top: 18px;
             margin-left: 10%;
+        }
+        ul {
+            padding-right: 18px;
         }
     }
 `;
