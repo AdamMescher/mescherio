@@ -4,8 +4,8 @@ const StyledFooter = styled.section`
     padding-top: 32px;
     padding-bottom: 24px;
     height: 100%;
-    background: rgb(0,38,81);
-    background: linear-gradient(30deg, rgba(0,38,81,1) 0%, rgba(3,64,119,1) 65%, rgba(0,92,164,1) 100%);
+    background: ${({ theme }) => theme.colors.primary[900]};
+    background: linear-gradient(30deg, ${({ theme }) => theme.colors.primary[900]} 0%, ${({ theme }) => theme.colors.primary[800]} 65%, ${({ theme }) => theme.colors.primary[700]} 100%);
     .img-and-text-container {
         margin-left: 10%;
         margin-right: 10%;

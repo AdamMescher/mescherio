@@ -12,7 +12,7 @@ const Contact = ({
     <h2>Like what you see?</h2>
     <div className="txt-and-img-cont">
       <div className="txt-cont">
-        <p>Id love to hear from you!</p>
+        <p>I'd love to hear from you!</p>
         <p className="email">
           {'Email me at '}
           <a href={`mailto:${email}`}>{` ${email}`}</a>
